@@ -1,8 +1,8 @@
 <?php
 
 $hostname="localhost";
-$username="root";
-$password="";
+$username="/*The username for your mysql";
+$password="/* The password for your mysql admin*/";
 $db_name="register";
 $connection=mysqli_connect($hostname,$username,$password,$db_name);
 if(!$connection)
